@@ -1,0 +1,37 @@
+Need to understand why enter button doesn't show on log-in
+!!Need to fix preposition recognition so that it won't fail to recognize a preposition followed by a period or other punctuation.
+1. address situation where you remove current preposition from on preposition list--what to do about the displayed sentence? Don't want to just bypass it.  Show it corrected?
+2. develop system for validating $_POST data
+3. when you close the prepositions panel with a corrected sentence on the screen, maybe don't proceed automatically to next sentence?  What if the person wants to re-do the current sentence?
+
+
+
+4 show lifetime stats   
+show errors, and allow user to request problems that focus in that area
+identify weak points--frequent confusion.  Create tailored quizzes with restricted/targeted choices. 
+
+6.Establish themes and allow random selection or coherent storylines. (maybe for later)
+
+6. Would be nice to have a sort of roll bar, where old sentences were there to see as well.
+
+when you close the prepositions panel it resets the current sentence--maybe fix this so the new sentence only reloads when one of its own prepositions was added/removed from the list of on prepositions
+Also, if you have completed a sentence and close the prepositions panel, it has the effect of hitting "try again" on that already-corrected sentence
+
+when you log out, the On prepositions list is cleared out--need to keep it active or re-initialize it upon logout
+
+create an Explain! button that will open a new panel and will give the current definition of the On prepositions in the sentence, and the definitions of the context from the current sentence
+could present these as fragments: ...one day after the show... with the preposition red or green to show ones that were wrong or correct. Should be contained in panel that will fall down from top
+...one day after the show...
+After: formal definition here
+...stood at the top...
+At: formal definition here
+**can do this by adjusting the results management section to add a new array that contains the full answer text.
+save this as a closure to avoid having to do another ajax call to populate the explain panel
+
+need to specifically request language when it's a new registration  
+
+change the location of the preposition choice popups--so they don't obscure the text
+
+Corrections Not Working--WHY? (about every ten or so??)--these appear to be cases where there is a preposition not prefixed by a context--easy fix
+Rescue and immediate relief operations are now making way by more sustained help in the survivors on the earthquake.(2x)
+Utterly waterless, for the rainfall runs off of once into all sides by the sea, the peninsula has not soil enough at grow a single blade for grass, as if it were blighted in a curse.
