@@ -71,7 +71,6 @@ $(function () {
     $("[data-role=panel]").enhanceWithin().panel();
 });
 
-
 $(document).on('panelbeforeopen', '#correctionsPanel', function () {
     $('#correctionsUl').children().remove();
     loadExplainPanel(sentenceMakerHolder.getMaker().getStoredResults());
